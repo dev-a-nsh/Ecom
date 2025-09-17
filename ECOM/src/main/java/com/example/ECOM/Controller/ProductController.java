@@ -10,7 +10,7 @@ import org.springframework.web.util.pattern.PathPattern;
 
 import java.util.List;
 
-
+//efefefe
 @RestController
 @RequestMapping("/product")
 public class ProductController {
@@ -43,4 +43,5 @@ public class ProductController {
     public List<Product> getProductsByCategory(@PathVariable String category) {
         return productService.findByCategory(category);
     }
+
 }
